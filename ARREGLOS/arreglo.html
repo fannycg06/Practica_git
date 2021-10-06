@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y arreglos</title>
+    <style>
+        .tabla {
+            border: 1px solid rgb(5, 170, 148);
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 50%;
+         }
+         .tabla td{
+            border :  rgb sólido de 1 px ( 22 , 116 , 224 );  
+            color:rgba(140, 0, 255, 0.932);
+         }
+        
+    </style>
+  </head>
+<h1 align="center">Arreglos y tabla</h1>
+  
+  <table class="tabla">
+      <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th >Fecha de Nac</th>
+        <th>Sexo</th>
+        <th>Accion</th>
+      </tr>
+      <tr>
+        <td><input  id = " Nombre " type = " text " placeholder = " Nombre " ></td>
+        <td><input  type = " text" id = " Nombre " placeholder = " Apellidos  " ></td>
+        <td><input  type = " text " class = " texto" > </td >
+        <td>Mujer</td>
+        <td><button onclick = "saludarConID()">Entrar</button ></td>
+      </tr>
+    </table>
+  <body>
+      <script>
+          function saludarConID(){
+              let texto = document.getElementById(Nombre).value;
+              alert(texto);
+          }
+      </script>
+      <script src="arreglo.js"></script>
+  </body>
+  </html>
